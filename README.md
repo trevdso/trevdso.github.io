@@ -1,12 +1,26 @@
-# Getting Started with Create React App
+# Trevor's Personal Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Workflow and General tips
+
+- Create a branch for feature/fix, write and test code (use `npm run dev` to test locally) on that specific branch.
+- Create a PR for that branch into `master` (assuming more than one person is working on this repo, else go ahead and directly push to master).
+- If PR is approved, and once code is merged/pushed into master, run `npm run deploy` to deploy the build to the gh-pages branch.
+- Thats's it!
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm predeploy`
+
+Builds the project for it to be deployes.
+
+### `npm deploy`
+
+Deploys build to gh-pages branch of the repository.
+Open [https://trevordsouza.com/](https://trevordsouza.com/) to view it live.
+
+### `npm dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
