@@ -13,7 +13,7 @@ In the project directory, you can run:
 
 ### `npm predeploy`
 
-Builds the project for it to be deployes.
+Builds the project for it to be deployed.
 
 ### `npm deploy`
 
