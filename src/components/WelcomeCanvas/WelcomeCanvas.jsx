@@ -1,6 +1,6 @@
 import React from 'react';
 import pJson from '../../../package.json';
-import './WelcomeCanvas.css';
+import './WelcomeCanvas.scss';
 
 function WelcomeCanvas() {
   const header = 'Welcome!';
